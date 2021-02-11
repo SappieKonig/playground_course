@@ -14,7 +14,7 @@ model = get_model(3e-4)
 
 # totaal
 
-for _ in range(1000):
+for _ in range(1000000):
     all_obs = []
     all_rewards = []
     all_done = []
